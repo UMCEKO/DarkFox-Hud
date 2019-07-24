@@ -1,0 +1,113 @@
+{
+	"menu_id" : "objectives",
+	"parent_menu" : "options",
+	"title" : "VoidUI_objectives_title",
+	"priority" : 4,
+	"items" : [
+		{
+			"type" : "slider",
+			"id" : "hud_objectives_scale",
+			"title" : "VoidUI_objectives_scale_title",
+			"description" : "VoidUI_objectives_scale_desc",
+			"percentage" : true,
+			"default_value" : 1,
+			"max" : 2,
+			"min" : 0.65,
+			"step" : 2
+		},
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "label",
+			"parent" : "enable_timer",
+			"title" : "VoidUI_timer_panel"
+		},
+		{
+			"type" : "toggle",
+			"id" : "enable_timer",
+			"is_parent" : true,
+			"title" : "VoidUI_enable_timer_title",
+			"description" : "VoidUI_enable_timer_desc",
+			"default_value" : true
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "show_timer",
+			"parent" : "enable_timer",
+			"title" : "VoidUI_objectives_show_timer_title",
+			"description" : "VoidUI_objectives_show_timer_desc",
+			"items" : [
+				"VoidUI_disabled", 
+				"VoidUI_on_scoreboard", 
+				"VoidUI_show"
+			],
+			"default_value" : 3
+		},
+		{
+			"type" : "toggle",
+			"id" : "show_levelname",
+			"parent" : "enable_timer",
+			"title" : "VoidUI_levelname_title",
+			"description" : "VoidUI_levelname_desc",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "show_ghost_icon",
+			"parent" : "enable_timer",
+			"title" : "VoidUI_ghost_title",
+			"description" : "VoidUI_ghost_desc",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "show_loot",
+			"parent" : "enable_timer",
+			"title" : "VoidUI_loot_title",
+			"description" : "VoidUI_loot_desc",
+			"default_value" : true
+		},
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "label",
+			"parent" : "enable_objectives",
+			"title" : "VoidUI_objectives_panel"
+		},
+		{
+			"type" : "toggle",
+			"id" : "enable_objectives",
+			"is_parent" : true,
+			"title" : "VoidUI_enable_objectives_title",
+			"description" : "VoidUI_enable_objectives_desc",
+			"default_value" : true
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "show_objectives",
+			"parent" : "enable_objectives",
+			"title" : "VoidUI_objectives_show_title",
+			"description" : "VoidUI_objectives_show_desc",
+			"items" : [
+				"VoidUI_disabled", 
+				"VoidUI_on_scoreboard", 
+				"VoidUI_show"
+			],
+			"default_value" : 3
+		},
+		{
+			"type" : "slider",
+			"id" : "hud_objective_history",
+			"parent" : "enable_objectives",
+			"title" : "VoidUI_objective_history_title",
+			"description" : "VoidUI_objective_history_desc",
+			"default_value" : 3,
+			"max" : 6,
+			"min" : 0,
+			"step" : 0
+		}
+		
+	]
+}

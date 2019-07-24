@@ -1,0 +1,42 @@
+{
+	"menu_id" : "subtitles",
+	"parent_menu" : "options",
+	"title" : "VoidUI_subtitles_title",
+	"priority" : 9,
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "enable_subtitles",
+			"title" : "VoidUI_enable_subtitles_title",
+			"description" : "VoidUI_enable_subtitles_desc",
+			"is_parent" : true,
+			"default_value" : true
+		},
+		{
+			"type" : "slider",
+			"id" : "subtitle_scale",
+			"parent" : "enable_subtitles",
+			"title" : "VoidUI_subtitle_scale_title",
+			"description" : "VoidUI_subtitle_scale_desc",
+			"percentage" : true,
+			"default_value" : 0.9,
+			"max" : 2,
+			"min" : 0.65,
+			"step" : 2
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "subtitles_bg",
+			"title" : "VoidUI_subtitles_bg_title",
+			"description" : "VoidUI_subtitles_bg_desc",
+			"parent" : "enable_subtitles",
+			"items" : [
+				"VoidUI_disable",
+				"VoidUI_subtitles_shadow",
+				"VoidUI_subtitles_fill"
+			]
+			"default_value" : 2
+		}
+		
+	]
+}

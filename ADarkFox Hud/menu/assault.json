@@ -1,0 +1,78 @@
+{
+	"menu_id" : "assault",
+	"parent_menu" : "options",
+	"title" : "VoidUI_assault_title",
+	"priority" : 3,
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "enable_assault",
+			"is_parent" : true,
+			"title" : "VoidUI_enable_assault_title",
+			"description" : "VoidUI_enable_assault_decs",
+			"default_value" : true
+		},
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "slider",
+			"id" : "hud_assault_scale",
+			"parent" : "enable_assault",
+			"title" : "VoidUI_assault_scale_title",
+			"description" : "VoidUI_assault_scale_desc",
+			"percentage" : true,
+			"default_value" : 1,
+			"max" : 2,
+			"min" : 0.65,
+			"step" : 2
+		},
+		{
+			"type" : "toggle",
+			"id" : "hostages",
+			"parent" : "enable_assault",
+			"title" : "VoidUI_hostages_title",
+			"description" : "VoidUI_hostages_desc",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "pagers",
+			"parent" : "enable_assault",
+			"title" : "VoidUI_pagers_title",
+			"description" : "VoidUI_pagers_desc",
+			"default_value" : true
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "jammers",
+			"parent" : "enable_assault",
+			"title" : "VoidUI_jammer_title",
+			"description" : "VoidUI_jammer_desc",
+			"items" : [
+				"VoidUI_disabled", 
+				"VoidUI_ecm_first", 
+				"VoidUI_ecm_last"
+			],
+			"default_value" : 2
+		},
+		{
+			"type" : "toggle",
+			"id" : "show_badge",
+			"is_parent" : true,
+			"parent" : "enable_assault",
+			"title" : "VoidUI_badge_title",
+			"description" : "VoidUI_badge_desc",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "anim_badge",
+			"parent" : ["enable_assault", "show_badge"],
+			"title" : "VoidUI_badge_anim_title",
+			"description" : "VoidUI_badge_anim_desc",
+			"default_value" : true
+		}
+		
+	]
+}

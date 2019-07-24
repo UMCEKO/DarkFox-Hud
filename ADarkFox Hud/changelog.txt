@@ -1,0 +1,271 @@
+Version 1.2.3 (2018.12.22)
+- Fixed crash after update 197
+- Fixed a crash with the Broken Arrow custom map
+- Updated texture files
+- Added Italian localization made by LycanCHKN
+- Added better captain badge made by Jarey
+
+Version 1.2.2 (2018.08.19)
+- Added an assault badge for Holdout
+- Added wave popup panel
+- Added a Houldout version of the tab panel
+- Added counter that shows the amount of Pocket ECM Devices left
+- Made the ammo couter smaller if you have over 999 total ammo to avoid overlapping
+- Enabled the wave popup panel in Safehouse Raid
+- Fixed "disable notification sounds" option not muting hint notification sounds
+- Fixed crash when trying to play Holdout
+- Fixed a crashed related to the downs counter
+
+Version 1.2.1 (2018.08.13)
+- Fixed crash when somebody has the Pocket ECM Device equiped
+- Fixed a crash with the joining player panel
+- Fixed a crash with the presenter panel
+
+Version 1.2 (2018.06.19)
+- Added custom options menu
+- Added joining player panels
+- Added better fade-in animation for loading screens
+- Added Chinese localization made by CoolLKK 
+- Added the ability to disable the waypoint modifications
+- Added the options to only show hudpanels of player teammates, or dont show them at all
+- Added achievement milestone notifications
+- Added voice chatting players indicators
+- Added the option to show your trade delay on the scoreboard
+- Fixed a crash with mutators and the tabpanel
+- Fixed a crash with levels and the tabpanel
+- Fixed a crash with assault lines
+- Fixed a crash with the presenter panel
+- Fixed the blackscreen panel sometimes getting created multiple times
+- Fixed chat button causing textboxes to lock up in the beardlib-editor
+- Fixed blackscreen skip time getting reset to the vanilla value
+- Fixed down counters not setting the maximum amount of downs correctly
+- Fixed the pager counter not showing the correct amount of pagers during crime-spree
+- Fixed the down counter not updating when the player changes loadouts on the briefing screen
+- Fixed challenge notifications not working
+- Fixed the timer panel displaying an error as heist name during the Crime-Spree version of Bank heist
+- Fixed the width of objectives sometimes being incorrect
+- Fixed a crash related to the loading screens and the BeardLib-Editor
+- Fixed the stored health meter for ex-president not working correctly
+- Fixed hint notifications sometimes coloring wrong parts of the text
+- Fixed the player and teammate panels incorrectly showing the player having 0 medicbags when they have no equipment 
+- Fixed the exp bar and tracked achievements on the statspanel being too long on 21:9 monitors
+- Fixed hudpanels always displaying saws if they were low on ammo
+- Fixed the stats panel showing the current song as nothing on music locked heists
+- Scarface's and John Wick's name will be shortened on their hud panels
+- Changed the equiped weapons on drop-in promts to an icon of the weapon
+- Russian translation were remade by Borderkeeper 
+- Updated the localization files
+
+Version 1.1.2 (2017.12.19)
+- Added loading screens
+- Added tagging notifications for the Tag Team perk-deck
+- Added hud effects for the Tag Team perk-deck
+- Added the ability for custom hint notifications to use the color names feature
+- Added interaction complete animation to name labels
+- Added the option to disable the exp bar on the stats screen when you are at max level
+- Scoreboard panels will now show the equipped armor of bots if they have them via other mods
+- Made hint notifications color bot names as well
+- Made the loading screen and stats screen show the days of Reservoir Dogs Heist correctly.
+- Made the heist intro, statscreen and timer panel show the variations of the bank heist
+- Updated the heist intro screen and added options for it
+- Updated the teammate carry text to support cyrillic characters
+- Fixed scoreboard panels getting reset when their owner is released from custody
+- Fixed a crash related to teammates using custom perk-decks
+- Fixed damage reduction bars sometimes not being updated correctly
+- Fixed names on hint notifications not being colored if the player has a bracket in their name
+- Fixed the ability bar not showing the current amount when using the Tag Team perk-deck
+- Fixed the interaction complete animation not being scaled correctly
+- Fixed the interaction bar length issue when interacting with bugged objects in The Golden Grin Casino
+- Fixed crash related to the secured loot panel and the BeardLib-Editor
+- Fixed the throwable indicator sometimes showing wrong values for ability perk-decks
+- Fixed last interaction appearing while flashed when using the Inverted Flashbang Glare mod 
+- Fixed multiple crashes related to jokers
+- Fixed a crash related to the scoreboard and players skill build
+- Fixed a log file error
+
+Version 1.1.1 (2017.11.03)
+- Removed the option to show completed trophies/side-jobs since they've been implemented in the vanilla game
+- Added challenge notifications panel
+- Added tracked achievements to the stats screen (can be set to jump key, crouch key or right click)
+- Added support for the Stoic perk deck
+- Added time added and removed animations for the Cursed Kill Room heist
+- Changed the vanilla value for maximum number of tracked achievements from 4 to 7
+- Fixed Downs not updating on scoreboard, and crashing when downs are restored if the player panels are disabled
+- Fixed pager count not updating when the player panels are disabled
+- Fixed teammate interaction panel not being aligned correctly as a drop-in spectator
+- Fixed teammate names getting too small on lower resolutions when the teammate panels are scaled up
+- Fixed bag count on vehicle labels appearing at the right side of the screen
+- Fixed vehicle labels not showing passenger count
+- Fixed special equipments overlapping with the carried bag info on teammate panels
+- Fixed cooldown not showing for perk-deck abilities
+- Fixed a crash related to stopping ai when custom name labels are disabled
+- Fixed crash when AI returns from custody
+- Fixed crash related to AI getting downed while the scoreboard is disabled
+- Fixed a crash with teammate interactions when the player panels are disabled
+- Fixed a crash that could occur when quiting the game at the same time the hostage count gets updated
+- Fixed a crash related to trading jokers
+
+Version 1.1 (2017.10.15)
+- Modified how the icons panel of the assault ticker works for better addon support
+- Added the option to disable hud elements
+- Added main player accuracy to scoreboard panel
+- Added the option to change the speed of the health gain/loss animation
+- Added the option to hide the timer and objective panels or only show them when the tabpanel is open
+- Added the option to show names in uppercase
+- Added notification and hint text options
+- Added subtitle options
+- Added Russian localization made by Skyfrost
+- Added French localization made by Esawo
+- Added compatibility with Press2Hold
+- Added compatibility with Big Lobby
+- Added compatibility with Assault States
+- Added compatibility with Burst Fire
+- Added compatibility with Death Wish+
+- Improved options menu
+- Fixed bot loadout sometimes not showing correctly
+- Fixed textures and default options not loading when another mod breaks the options menu
+- Fixed a crash related to the assault panel
+- Fixed the hostages panel sometimes not playing the assault end animation
+- Fixed a rare crash related to beardlib custom music
+- Fixed chat messages not being colored correctly when the heister names are turned off
+- Fixed teammates bleedout timers and interaction texts not being effected by hud scale
+- Fixed mutators list on the tab panel not being affected by hud scale
+- Fixed the heist timer going nuts after the one hour mark when the panel is scaled
+- Fixed waypoints being infront of some parts of the assault panel
+- Fixed police badge appearing after you kill the captain when the badge is turned off
+
+Version 1.0 (2017.09.29)
+- Civilian kills now increment the normal kill counter as well
+- Fixed ex-president heal bar being retarded
+- Fixed scoreboard panels not being correctly aligned when there are no bots
+- Fixed main players ping sometimes having the wrong color
+- Fixed downed interaction showing the complete animation even when the interaction didnt complete
+- Fixed crime spree level not being the correct size on the police badge when the assault panel is not the default size
+- Made the background of the suspicion panel a bit more transparent
+
+Version 0.7 (2017.09.19)
+- Reworked how the police badge works
+- Added a crime spree version of the police badge
+- Added golden text and border for completed trophy and side-job presenters
+- Added options for the scoreboard
+- Updated the texture of the police badge
+- Changed the ping update frequency from 5 seconds to 2 seconds
+- Global scale now modifies the interaction and detection scales as well
+- Bots armor will default to full when they replace a leaving player
+- Bot health will always show up as a percentage
+- Fixed scoreboard not correctly displaying the difficulty in crime spree
+- Fixed wave panel being missaligned when the police badge is disabled
+- Fixed stat panel sometimes showing mission bags as 0/0
+
+Version 0.6.1 (2017.09.11)
+- Updated interaction panel to support cyrillic characters
+- Updated carried bag panel to support cyrillic characters
+- Added presenter popup when completing a trophy or a side job
+- Fixed captain buff icon looping the show animation.
+- Fixed presenter panel animating when the game is paused
+- Fixed crash related to bot weapons
+- Fixed a crash related to scoreboard kills
+
+Verion 0.6 (2017.09.09)
+- Updated the hud to support BLT 2.0
+- Updated mod definition file
+- Cleaned up some code
+- Updated highlight textures
+- Updated localization files
+- Made the assault panel on a custom panel to avoid crashes with other mods
+- Bot healths will no longer get stuck when they replace a leaving player
+- Added new tab panel with scoreboard
+- Added pulsing animation to the captain buff icon when the badge animation is enabled
+- Added the option to resize the interaction panel
+- Added the option to verticaly move the interaction panel
+- Added the option to disable interaction timers
+- Added the option to resize the suspicion panel
+- Added the option to verticaly move the suspicion panel
+- Fixed crash related to chat messages and getting disconnected from the game
+- Fixed the secured loot panel not being the correct size
+- Fixed captains buff icon overlapping with the assault ticker when the police badge is disabled
+- Fixed interaction complete animation being slightly off
+
+Version 0.5.1 (2017.08.21)
+- Fixed some bugs that were created by the last update
+- Added heist intro for crime spree
+- Fixed the bleedout panel overlapping with the health values
+- Further improved suspicion meter
+
+Version 0.5 (2017.08.20)
+- Added new heist into (blackscreen panel)
+- Added actual custom textures without the need of BeadLib or mod-overrides
+- Improved the suspicion meter
+
+Version 0.4 (2017.08.18)
+- The mod is now called Void UI
+- Remade most textures
+- Textures are now stored in seprate custom files, no longer overriding a default game texture
+- Improved the set_health and set_armor functions.
+- Improved the options menu.
+- Added experimental suspicion panel (need feedback on it)
+- Added maniac panel
+- Added a blinking animation to the hostages panels when gaining or loosing a hostage
+- Added a graphic element for bleeding out
+- Added the option to show jokers health
+- Added the option to disable the secured loot count
+- Added the option to show teammates armor value
+- Added the option to disable joker contours
+- Added the option to disable cop hostages
+- Added the option to disable pager count
+- Added the option to disable jammer timers
+- Added waiting panel drop-in prompt
+- Fixed interaction timer randomly appearing when downed
+- Fixed a crash related to ecm jammers
+- Fixed a crash related to name labels
+- Fixed a crash when using the Keepers mod
+- Fixed Swan song bar freezing on a panel if that panels owner quits.
+- Fixed downed icon appearing infront of the bleedout timer on the teammates panel
+
+Version 0.3 (2017.08.02)
+- Added name label for jokers
+- Added correctly colored outlines for jokers
+- Added the option to resize name labels
+- Added dynamic name labels that get small if you are far away from the players or not looking directly at them
+- Added the option to resize the chat
+- Added the option to disable character names on chat messages
+- Added the option to display game time or real time on chat messages
+- Added the option to disable mouse support in chat
+- Added the option to resize waypoints
+- Added the option to set size of the circle waypoints orbit when they're offscreen or hide even them
+- Added the option to disable teammate interaction times
+- Added the option to disable ammo pickup popups
+- Improved mouse support in the chat
+- Resized subtitles and added a background to them
+- The ammo counter will more red the less ammo you have (Don't really like how it looks, might change it)
+- Fixed assault panel showing difficulty skulls during wave survived while the police badge is enabled
+- When the police badge is disabled the difficulty skulls are displayed with the assault strings.
+- Fixed equipment panel color not updating when using tripmines
+- Fixed carried bag panel not moving when the player panel is resized
+- Slightly changed the ability cooldown panel
+- Reworked the ex-presidents health panel
+- If a new objective is the same as the current one, a new objective panel won't be created (needs testing)
+- The hud now displays the health of bots for hosts
+- "Stopped" icon will now be correctly displayed for bots
+- Active ECM jammer time now replaces the pager counter in stealth
+- You can now open the chat in offline mode
+- Teammate downs now counts down like the player downs. if the teammate has more than 3 points in revenant it assumes they have 9 lives aced
+- Removed Hold [button] to mask up panel from the top of the screen
+- Fixed a crash related to controllers
+- Changed menu and localization files from txt to json
+- Updated localization
+
+Version 0.2 (2017.07.14)
+- Restructured the options menu
+- Added reset hud options button
+- Added global hud scale slider wich will resize every element at the same time
+- Added an option for setting teammates health
+- Added options for showing downs/bodybags/detection risk
+- Added the option to disable rank and level for teammates on the hud panel
+- Added options to resize the objective panel and the assault panel
+- Added the option to set the objective history amount
+- Added the option to disable the assault police badge
+- Added the option to disable the pulse animation of the assault police badge
+- Added custom strings for endless assault waves
+- Fixed teammate health value not animating
+- Slightly moved the teammate bag panel to avoid clipping

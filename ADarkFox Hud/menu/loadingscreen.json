@@ -1,0 +1,106 @@
+{
+	"menu_id" : "loadingscreen",
+	"parent_menu" : "options",
+	"title" : "VoidUI_blackscreen_title",
+	"priority" : 10,
+	"items" : [
+		{
+			"type" : "label",
+			"title" : "VoidUI_blackscreen",
+			"parent" : "enable_blackscreen"
+		},
+		{
+			"type" : "toggle",
+			"id" : "enable_blackscreen",
+			"title" : "VoidUI_enable_blackscreen_title",
+			"description" : "VoidUI_enable_blackscreen_desc",
+			"default_value" : true,
+			"is_parent" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "blackscreen_map",
+			"title" : "VoidUI_blackscreen_map_title",
+			"description" : "VoidUI_blackscreen_map_desc",
+			"default_value" : true,
+			"parent" : "enable_blackscreen"
+		},
+		{
+			"type" : "toggle",
+			"id" : "blackscreen_risk",
+			"title" : "VoidUI_blackscreen_risk_title",
+			"description" : "VoidUI_blackscreen_risk_desc",
+			"default_value" : true,
+			"parent" : "enable_blackscreen"
+		},
+		{
+			"type" : "toggle",
+			"id" : "blackscreen_skull",
+			"title" : "VoidUI_blackscreen_skull_title",
+			"description" : "VoidUI_blackscreen_skull_desc",
+			"default_value" : true,
+			"parent" : "enable_blackscreen"
+		},
+		{
+			"type" : "toggle",
+			"id" : "blackscreen_linger",
+			"title" : "VoidUI_blackscreen_linger_title",
+			"description" : "VoidUI_blackscreen_linger_desc",
+			"default_value" : true,
+			"parent" : "enable_blackscreen"
+		},
+		{
+			"type" : "slider",
+			"id" : "blackscreen_time",
+			"title" : "VoidUI_blackscreen_time_title",
+			"description" : "VoidUI_blackscreen_time_desc",
+			"parent" : "enable_blackscreen"
+			"default_value" : 0,
+			"suffix" : "s",
+			"max" : 2,
+			"min" : 0,
+			"step" : 1
+		},
+		{
+			"type" : "divider"
+		},
+		{
+			"type" : "label",
+			"title" : "VoidUI_loading",
+			"parent" : "enable_loadingscreen"
+		},
+		{
+			"type" : "toggle",
+			"id" : "enable_loadingscreen",
+			"title" : "VoidUI_enable_loadingscreen_title",
+			"description" : "VoidUI_enable_loadingscreen_desc",
+			"default_value" : true,
+			"is_parent" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "loading_heistinfo",
+			"title" : "VoidUI_loading_heistinfo_title",
+			"description" : "VoidUI_loading_heistinfo_desc",
+			"default_value" : true,
+			"parent" : "enable_loadingscreen"
+		},
+		{
+			"type" : "toggle",
+			"id" : "loading_players",
+			"title" : "VoidUI_loading_players_title",
+			"description" : "VoidUI_loading_players_desc",
+			"default_value" : true,
+			"parent" : "enable_loadingscreen"
+		},
+		{
+			"type" : "toggle",
+			"id" : "loading_briefing",
+			"title" : "VoidUI_loading_briefing_title",
+			"description" : "VoidUI_loading_briefing_desc",
+			"default_value" : false,
+			"parent" : "enable_loadingscreen"
+		}
+		
+	]
+}
